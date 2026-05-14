@@ -31,3 +31,12 @@ class Solution:
 
         helper(0,target,[])
         return res
+
+        # #2 logic
+        # for i in range(pivot,len(candidates)):
+        #     #action
+        #     li = list(path) ie deep copy everytime to avoid backtracking the action
+        #     li.append(candidates[i])
+
+        #     #recurse
+        #     helper(i,target-candidates[i],li)
